@@ -1,4 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
+import NextAuth from 'next-auth';
 import { REQUEST_METHODS } from '../helpers';
 
 type ResponseData = {

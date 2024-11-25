@@ -9,7 +9,7 @@ import (
 	"github.com/go-chi/chi/v5/middleware"
 )
 
-type record struct map[string]T
+type record struct map[string]{string}
 
 type records struct []record
 
